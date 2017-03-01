@@ -1,0 +1,14 @@
+{
+  "presets": ["latest-node6"],
+  "env": {
+    "test": {
+      "sourceMaps": "both"
+    }
+  },
+  "plugins": [
+    "transform-decorators-legacy",
+  ]
+
+}
+
+
