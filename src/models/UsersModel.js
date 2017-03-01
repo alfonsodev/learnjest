@@ -1,10 +1,12 @@
-import database from '../database'
+import withDb from '../decorators/withDb'
 
-const UsersModel = {
+@withDb
+class UsersModel {
     getUsers() {
-        let users = database.query('get users')
+        let users = UsersModel.db.query('get users')
         return users
     }
 }
 
-export default UsersModel
+let userModel = new UsersModel()
+export default userModel
