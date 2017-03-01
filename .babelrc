@@ -6,9 +6,11 @@
     }
   },
   "plugins": [
-    "transform-decorators-legacy",
+    ["module-resolver", {
+      "alias": {
+        "learnjest-database": "./src/database"
+      }
+    }],
+    "transform-decorators-legacy"
   ]
-
 }
-
-

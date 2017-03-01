@@ -13,3 +13,10 @@ instead of real users.
 This toturial we are a decorator which adds database module
 as a static property of the model.
 
+# Tutorial 3: Babel resolve, for better paths.
+## branch `tutorial-3-resolve`
+In this tutorial we are going to add babel-resolve plugin, 
+to create an alias to our local modules, as if they were
+external modules.
+
+
